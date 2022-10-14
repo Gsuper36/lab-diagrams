@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T09:06:11.007Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.0" etag="dqKkXRvL1OvFKP1mdXio" type="github"><diagram id="StONF0LNdoXwJDWdAi2p">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-14T09:19:53.941Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZQ86ucSEYcmQcglC0UvZ" version="20.4.0" type="github">
+  <diagram id="StONF0LNdoXwJDWdAi2p" name="Страница 1">
+    <mxGraphModel dx="462" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LOugEGpSNVyAL-JtELVP-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="1150" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-2" target="LOugEGpSNVyAL-JtELVP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="394" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-3" value="Состояние объекта Заказ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="500" y="35" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-4" value="Суперсостояние объекта Заказ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-5" target="LOugEGpSNVyAL-JtELVP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-5" target="LOugEGpSNVyAL-JtELVP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-5" value="Инициализация" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="276" y="300" width="276" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-6" value="entry/ Сохранить дату заказа" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="LOugEGpSNVyAL-JtELVP-5">
+          <mxGeometry y="30" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-7" value="do/ Собрать клиентскую информацию" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="LOugEGpSNVyAL-JtELVP-5">
+          <mxGeometry y="60" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-8" value="do/ Добавить к заказу новую позицию" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="LOugEGpSNVyAL-JtELVP-5">
+          <mxGeometry y="90" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-9" value="Отменен" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="276" y="600" width="276" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-12" value="exit/ Сохранить дату отмены" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="LOugEGpSNVyAL-JtELVP-9">
+          <mxGeometry y="30" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-16" target="LOugEGpSNVyAL-JtELVP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-13" value="Выполнен" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="757" y="600" width="276" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-16" value="do/ Выписать счет" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="LOugEGpSNVyAL-JtELVP-13">
+          <mxGeometry y="30" width="276" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-17" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="800" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-20" target="LOugEGpSNVyAL-JtELVP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-20" value="Выполнение заказа приостановлено" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="315" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-21" value="Добавить к заказу новую позицию [Остаются незаполненные позиции]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-20" target="LOugEGpSNVyAL-JtELVP-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="460" as="sourcePoint" />
+            <mxPoint x="860" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="260" />
+              <mxPoint x="890" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-24" value="Выполнить заказ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-25" value="Отменить заказ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="434" y="540" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-26" value="Добавить к заказу новую позицию [Не осталось незаполненные позиции]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="890" y="510" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LOugEGpSNVyAL-JtELVP-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LOugEGpSNVyAL-JtELVP-12" target="LOugEGpSNVyAL-JtELVP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
