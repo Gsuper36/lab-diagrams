@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T11:08:12.881Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.1" etag="hyjMV0y0jz9Lm23nNzP3" type="github"><diagram id="ROU_I0dy4kjRo45CeB-Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-14T11:28:48.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3r2nMB4Lw2hegvQ5_IYY" version="20.4.1" type="github">
+  <diagram id="ROU_I0dy4kjRo45CeB-Z" name="Страница 1">
+    <mxGraphModel dx="462" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WWk_hd5mM134EWp1A6Vr-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=50;entryPerimeter=0;" edge="1" parent="1" source="WWk_hd5mM134EWp1A6Vr-1" target="WWk_hd5mM134EWp1A6Vr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WWk_hd5mM134EWp1A6Vr-1" value="Control" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WWk_hd5mM134EWp1A6Vr-2" value="Entities" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WWk_hd5mM134EWp1A6Vr-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WWk_hd5mM134EWp1A6Vr-3" target="WWk_hd5mM134EWp1A6Vr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WWk_hd5mM134EWp1A6Vr-3" value="Boundaries" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
